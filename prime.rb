@@ -4,6 +4,8 @@ def prime?(int)
   2.upto(int) do |div|
     if int % div == 0 
       return TRUE
+    else 
+      return FALSE
     end
   end
 end
