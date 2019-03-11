@@ -6,7 +6,6 @@ def prime?(int)
   2.upto(int-1) do |div|
     array << int % div == 0 
   end
-  
- return true if array.any? {|i| i == true}
+
     
 end
