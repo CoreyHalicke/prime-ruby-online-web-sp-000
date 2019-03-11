@@ -7,6 +7,7 @@ def prime?(int)
     array << int % div == 0 
   end
   
-  array.include? {|i| i == true}
-  print array
+  if array.any? {|i| i == true}
+    return true
+    
 end
