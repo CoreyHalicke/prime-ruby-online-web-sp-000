@@ -5,6 +5,6 @@ def prime?(int)
     if int % div == 0 
       return TRUE
     end
+    return false 
   end
-  return false 
 end
