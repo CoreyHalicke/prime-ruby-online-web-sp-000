@@ -6,5 +6,6 @@ def prime?(int)
     array << int % div == 0 
   end
   
-  array.any? {|i| 
+  array.any? {|i| i == true}
+  
 end
