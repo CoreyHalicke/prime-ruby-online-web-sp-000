@@ -1,9 +1,8 @@
 
 def prime?(int)
   return false if int <= 0 
+  array = []
   2.upto(int) do |div|
-    if int % div == 0 
-      return TRUE
-    end
+    array << int % div == 0 
   end
 end
