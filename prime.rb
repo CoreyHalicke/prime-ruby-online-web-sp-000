@@ -5,4 +5,6 @@ def prime?(int)
   2.upto(int) do |div|
     array << int % div == 0 
   end
+  
+  array.any?
 end
