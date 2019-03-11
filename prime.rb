@@ -1,6 +1,7 @@
-# Add  code here!
+
 def prime?(int)
+  test = []
   (2..int-1).each do |div|
-    return int % div
+    test << int % div
   end
 end
