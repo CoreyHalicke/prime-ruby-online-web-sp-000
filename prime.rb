@@ -6,6 +6,7 @@ def prime?(int)
   2.upto(int-1) do |div|
     if int % div == 0 
       return false
+    end
   end
     
 end
