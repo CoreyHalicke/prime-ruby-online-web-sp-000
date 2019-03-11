@@ -6,6 +6,6 @@ def prime?(int)
   2.upto(int-1) do |div|
     array << int % div == 0 
   end
-  print array
+  puts array
     
 end
