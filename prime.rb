@@ -8,5 +8,5 @@ def prime?(int)
   end
   
   array.include? {|i| i == true}
-  
+  print array
 end
