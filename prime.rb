@@ -1,7 +1,4 @@
 
 def prime?(int)
-  test = []
-  (2..int-1).each do |div|
-    test << int % div
-  end
+  return false if int <= 0 
 end
